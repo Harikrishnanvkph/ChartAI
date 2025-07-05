@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import ChartJSRegistration from '../components/ChartJSRegistration'
+import ChartJS from '../lib/chart-registration.ts'
 
 export const metadata: Metadata = {
   title: 'v0 App',
