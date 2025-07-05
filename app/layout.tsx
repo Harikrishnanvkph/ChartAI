@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import ChartJS from '../lib/chart-registration.ts'
+import '../lib/chart-registration.ts'
 
 export const metadata: Metadata = {
   title: 'v0 App',
@@ -16,7 +16,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <ChartJSRegistration />
         {children}
       </body>
     </html>
