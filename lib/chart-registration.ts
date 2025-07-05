@@ -40,6 +40,13 @@ ChartJS.register(
   LineElement,
   PointElement,
   ArcElement,
+  // Controllers
+  BarController,
+  LineController,
+  PieController,
+  DoughnutController,
+  PolarAreaController,
+  RadarController,
   Title,
   Tooltip,
   Legend,
